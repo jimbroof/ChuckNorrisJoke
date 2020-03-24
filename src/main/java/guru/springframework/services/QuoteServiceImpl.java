@@ -14,6 +14,7 @@ public class QuoteServiceImpl implements QuoteService {
         this.chuckNorrisQuotes = chuckNorrisQuotes;
     }
 
+
     @Override
     public String getJoke() {
         return chuckNorrisQuotes.getRandomQuote();
